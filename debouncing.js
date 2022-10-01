@@ -1,8 +1,8 @@
 let counter = 0;
-getData = () => {
+function getData() {
   console.log("fetching data", counter++);
 }
-
+// debouncing is used to optimize the performce of the search bar
 function myDebounce(call, delay){
   let timer;
   return function(...args){
@@ -13,4 +13,4 @@ function myDebounce(call, delay){
   }
 }
 
-const betterFunction = myDebounce(getData, 500);
+const betterFunction = myDebounce(getData, 400);
