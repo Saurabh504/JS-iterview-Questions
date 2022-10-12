@@ -1,12 +1,12 @@
-def fizzbuzz(num):
-    if num % 3 == 0 and num % 5 != 0:
+def fizzbuzz(cont):
+    if cont % 3 == 0 and cont % 5 != 0:
         return print("Fizz")
-    elif num % 5 == 0 and num % 3 != 0:
+    elif cont % 5 == 0 and cont % 3 != 0:
         return print("Buzz")
-    elif num % 5 == 0 and num % 3 == 0:
+    elif cont % 5 == 0 and cont % 3 == 0:
         return print("FizzBuzz")
     else:
-        return print(num)
+        return print(cont)
 
 for x in range(100):
     fizzbuzz(x)
