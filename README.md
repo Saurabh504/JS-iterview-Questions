@@ -1,2 +1,2 @@
 # JS-iterview-Questions
-this repo consist of important js questions.
+this repo consist of important java script questions.
